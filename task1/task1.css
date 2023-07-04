@@ -1,0 +1,294 @@
+body{
+    background-color: white;
+}
+.head{
+    height: 5rem;
+    display: flex;
+}
+.logo{
+    margin-top: 10px;
+    height: 66px;
+    width: 67px;
+    margin-left: 20px;
+}
+.menu{
+    margin: 2px;
+    width: 21rem;
+    padding: 12px 21px;
+    word-spacing: 25px;
+    font-weight: 900;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.hbuttons{    
+    margin-left: 575px;
+    margin-top: 26px;
+}
+.line{
+    margin-top: 5px;
+    border:1px solid rgb(189, 184, 184);
+}
+.sign,.join{
+    height: 34px;
+    width: 5rem;
+    border-radius: 25px;
+    margin: 0 3px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+.join{
+    width:6.1rem;
+    color: white;
+    background-color: black;
+}
+.loc{
+    border: none;
+    background-color: white;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.sign:hover{
+    background-color: rgb(215, 211, 211);
+}
+.join:hover{
+    background-color: rgb(80, 78, 78);
+}
+.loc:hover{
+    color: green;
+}
+.lemonade{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 39rem;
+    margin: 35px 0;
+    background-color: rgb(237 129 147);
+}
+.lcontent{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 130px;
+    text-align: center;
+}
+.lcontent h1{
+    letter-spacing: 3px;
+    font-size: 3rem;
+    margin: 0 0;
+    color: rgb(10, 57, 10);
+    font-family: 'Open Sans', sans-serif;
+}
+.lcontent p{
+    font-size: 1.6rem;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    color: rgb(10, 57, 10);
+    line-height: 1.2;
+    font-family: 'Ysabeau SC', sans-serif;   
+}
+.lcontent button{
+    font-size: 15px;
+    color: rgb(10, 57, 10);
+    width: 100px;
+    height: 34px;
+    background-color: rgb(237 129 147);
+    border-radius: 21px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+.lcontent button:hover{
+    background-color:rgb(187, 98, 113);
+}
+.rewards{
+display: flex;
+height: 339px;
+background-color: #e6f0d5;
+margin-bottom: 35px;
+}
+.rcontent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 49px;
+}.rcontent h2{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(10, 57, 10);
+}
+.rcontent p{
+    margin: 0;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    color: rgb(10, 57, 10);
+    line-height: 1.2;   
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.rcontent button{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(10, 57, 10);
+    width: 97px;
+    height: 32px;
+    background-color: #e6f0d5;
+    border-radius: 21px;
+    border: 1px black solid;
+    font-weight: bold;
+    margin-right:  11px; ;
+}
+.rcontent button:hover{
+    background-color:rgb(117, 176, 117) ;
+}
+.mocha{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 621px;
+    background-color: #7973e3;
+    margin-bottom: 35px;
+}
+.mcontent{
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+    text-align: center;
+}
+.mcontent h1{
+    letter-spacing: 3px;
+    font-size: 3rem;
+    margin: 0 0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.mcontent p{
+    font-size: 1.7rem;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    color: black;
+    line-height: 1.2;
+    font-family: 'Ysabeau SC', sans-serif;  
+}
+.mcontent button{
+    font-size: 15px;
+    color: rgb(10, 57, 10);
+    width: 100px;
+    height: 35px;
+    background-color: #7973e3;
+    border-radius: 21px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+.mcontent button:hover{
+    background-color: #565297;
+}
+.wrap{
+    display: flex;
+ height: 759px;   
+ background-color: #c3e972;
+ margin-bottom: 35px;
+}
+.wcontent{
+    margin-top: 195px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 116px;
+    text-align: center;
+}
+.wcontent h1{
+    letter-spacing: 3px;
+    font-size: 3rem;
+    margin: 0 0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.wcontent p{
+    font-size: 1.7rem;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    color: black;
+    line-height: 1.2;
+    font-family: 'Ysabeau SC', sans-serif; 
+}
+.wcontent button{
+    font-size: 15px;
+    color: rgb(10, 57, 10);
+    width: 100px;
+    height: 35px;
+    background-color: #c3e972;
+    border-radius: 21px;
+    border: 1px black solid;
+    font-weight: bold;
+}
+.wcontent button:hover{
+    background-color: #7f984a;
+}
+.collections{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 415px;
+    background-color: #c3e972;
+}
+.ccontent{
+    margin-top: 112px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 63px;
+    text-align: center;
+}
+.ccontent h2{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(10, 57, 10);
+}
+.ccontent p{
+    margin: 0;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    color: rgb(10, 57, 10);
+    line-height: 1.2;   
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.ccontent button{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(10, 57, 10);
+    width: 112px;
+    height: 36px;
+    background-color: #c3e972;
+    border-radius: 26px;
+    border: 1px black solid;
+    font-weight: bold;
+    margin-right:  11px; ;
+}
+.ccontent button:hover{
+    background-color: #7f984a;  
+}
+.link{
+text-align: center;
+margin: 35px 0;
+}
+.link p{
+    margin: 0;
+}
+.link a{
+    color: green;
+}
+.link a:hover{
+    text-decoration: none;
+}
+.tnc{
+    margin: 35px 0 50px 30px;
+    text-align: center;
+}
+.tnc a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.tnc a:hover{
+    text-decoration: underline;
+}
